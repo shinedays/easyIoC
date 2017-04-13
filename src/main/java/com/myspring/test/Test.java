@@ -14,7 +14,7 @@ public class Test {
     }
 
     public static void testIoc(){
-        BeanFactory beanFactory = new ClassPathXmlApplicationContext("/home/bupt/code/java/iocdemo/src/main/resources/ApplicationContext.xml");
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext("./src/main/resources/ApplicationContext.xml");
         User user = (User)beanFactory.getBean("user");
         System.out.println(user);
         Address address = (Address)beanFactory.getBean("address");

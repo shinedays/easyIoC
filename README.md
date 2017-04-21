@@ -1,3 +1,2 @@
 # easyIoC
-Achievement of IoC
-use reflect 
+This program realizes IoC feature by reflect.
